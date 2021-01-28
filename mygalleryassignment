@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!-- Copyright Code written by Suleyman Mulayim-->
+
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Wild Flower Gallery</title>
+   
+
+    <style>
+        @viewport {
+         width: device-width ;
+        zoom: 1.0 ;
+        }
+
+        body 
+        {
+        border: 10px white;
+        background-image: url("images/433037.jpg");
+        background-size: auto;
+        background-position: right;
+        background-clip: border-box;  
+        height: 0;     
+        }
+
+        hr.header 
+        {
+            border-top: 2px solid grey;
+            border-bottom: 2px solid grey;
+            background-color: grey;
+            border-radius: 2.5px;
+            height: 2.5px;
+            width: 1500px;
+            
+            
+            
+        }
+        hr 
+        {
+            background-color:grey;
+            height: 2.5px;
+            border-radius: 5px;
+            margin: 10px;
+            margin-left: 0px;
+            background-position: center;
+            clear: left;
+            border-radius: 1px;   
+            
+        }
+        hr.nav 
+        {
+            background-color:grey; 
+            border-width: 50px;
+            height: 50px;
+            border-radius: 2.5px;
+            clear: both;
+            display: block;
+            margin: 25px; 
+        }
+        article
+        {
+            background-color:white;
+            border: 2.5px solid grey;
+            box-shadow:	20px 6px -30px rgba(55, 55, 55, .6);
+            border-radius: 5px;
+            min-height: fit-content;
+            margin: 0 auto;
+            padding: 4vh 5vh 10vh;
+            width: 50%;
+            text-align: left; 
+            background-image: url("images/433037.jpg");
+        }
+        h1
+        {
+            color: rgb(56, 255, 228);
+            text-align: center;
+            font-size: xx-large;
+            font-family: Harrington ; 
+            color:rgb(12, 12, 11);
+           
+            
+        } 
+         h3 
+        {
+            color: #080808;
+            font-family: "Arial";
+            text-align: right;
+            font-size: small;
+            
+        }
+        img 
+        {
+            border-radius: 7px;
+            border: 2.5px solid rgb(251, 255, 40);
+            margin: center;
+            float: center;
+            display: block;
+            
+        }
+
+        img.arrow 
+        {
+
+            width: 25px;
+            height: 25px;
+            border-left: 1px solid transparent;
+            border-right: 1px solid transparent;
+            border-radius: 20px;
+            clear: both; 
+            display:block;       
+            margin-left: 95%; 
+            margin-bottom: 30px;
+            display: table;
+        }
+        .p1
+        {
+            color: #080808;
+            font-family: "Arial black";
+            text-align: right;
+            font-size: small;
+            margin-left: 50%;
+            
+        }
+        .p2
+        {
+            font-family: cursive;
+            margin-bottom: 100px;
+            
+            
+        }
+        nav 
+        {
+            border: 2.5px solid grey;
+            width: 250px;
+            height:190px;
+            float: left;
+            margin-top: 0px;
+            margin-left: 35px;
+            border-radius: 5px
+            
+          
+        }
+        ul 
+        {
+            text-align: left;
+            margin-right: 10%;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            width: 200px;   
+        }
+        li a 
+        {
+            display: block ;
+            color: rgb(14, 13, 13);
+            padding: 5px 5px;  
+            align-items: right;
+            padding-block-start: 5px;
+          
+        }
+        li a.active {
+            background-color: #5ee775;
+            color: rgb(139, 27, 27);
+            width: 80%;
+           
+        }      
+        li a:hover:not(.active) 
+        { 
+            color: rgb(75, 75, 16);
+            background-color: rgb(231, 209, 209);
+            text-decoration-color: rgb(69, 97, 26);
+        }
+
+
+</style>
+
+</head>
+<body>
+  <!--  <script type="text/javascript" style="font: xx-large;">
+        document.write ('<p>Current time is: <span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
+        if (document.getElementById) onload = function () {
+            setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+        }
+    </script -->
+    <header>
+       
+<h1 style="color:rgba(32, 39, 3, 0.877); text-decoration: rgb(25, 26, 24); font-size: 50px ; "> Suleyman's Galeria <br> 2020 Summer Collections </h1>
+<hr class="header" >
+</header>
+
+    <main>
+<nav > 
+    
+    <p style="font-size: large; text-align: center "> Variety of Flowers </p>
+    <hr />
+        <ul> 
+
+            <li><a href="#dandelion1"> Wild Dandelion </a></li>
+            <li><a href="#iris1"> Wild Iris </a></li>
+            <li><a href="#narcis1"> Wild Narcis </a></li>
+            <li><a href="#whiterose1"> Wild White Rose </a></li>
+            
+        </ul>
+</nav>
+       
+    <article>
+
+        <p2 style="font-family: Harrington;">The images were captured in the summer of 2020, mainly located areas were in the parks where as wild life is growing and getting better in their times.  
+I love taking photos closely, making memories and bringing those images to the real life for those whom not able to look closely like I do.<br><br><br>
+     </p2> 
+
+        <section style="overflow: auto; "text-align:"center" id="dandelion1">
+        <img alt="Wild Dandelion" src="images\wild-dandelion.jpg" style= "width: 500px; height:500px; margin: auto;">
+        <p style="font-family: Harrington;"> Taraxacum erythrospermum, known by the common name red-seeded dandelion, is a species of dandelion introduced to much of North America, but most commonly in the north. It is often considered as a variety of Taraxacum laevigatum.</p>
+        </section>  
+        <h2 style="font-family: Harrington; font-size: 15px;"> Captured by Suleyman Mulayim ◆ Taraxacum  ◆ 500 X 500 (pixel) </h2>
+
+    <a href="index.html">
+    <img class="arrow" src="images/unicode_arrows.png" alt="uparrow">
+    </a>
+
+<hr />
+
+        <section style="overflow: auto;"  id="iris1">
+        <img alt="Wild Iris" src="images\wild_iris.jpg" style= "width: 500px; height: 500px;">
+        <p style="font-family: Harrington;">A wild flower of Ontario, the blue flag blooms in late spring. Range: Blue flag is our most widespread native iris. ... Habitat: The Blue flag grows in wet areas of woods and meadows and along shorelines of lakes, rivers and ponds — to the delight of cottagers and canoeists.</p>
+        </section>
+        <h2 style="font-family: Harrington; font-size: 15px;"> Captured by Suleyman Mulayim ◆ Wild Dandelion ◆ 500 X 500 (pixel) </h2>
+   
+    <a href="index.html">  
+    <img class="arrow" src="images/unicode_arrows.png" alt="uparrow">
+    </a>
+
+<hr />
+
+        <section style="overflow: auto;" id="narcis1">
+        <img alt="Wild Narcis" src="images\wild_narcis.jpg" style= "width: 500px; height: 500px;">
+        <p> hello </p>
+        </section>
+        <h2 style="font-family: Harrington; font-size: 15px;" > Captured by Suleyman Mulayim ◆ Wild Dandelion ◆ 300 X 300 (pixel) </h2>
+
+    <a href="index.html">
+    <img class="arrow" src="images/unicode_arrows.png" alt="uparrow">
+    </a>
+
+<hr />
+
+        <section style="overflow: auto;"  id="whiterose1">
+        <img alt="Wild White Rose" src="images\wild_white_rose.jpg" style= "width: 500px; height: 500px;"> 
+        <p>hello</p>
+        </section> 
+        <h2 style="font-family: Harrington; font-size: 15px;" > Captured by Suleyman Mulayim ◆ Wild Dandelion ◆ 500 X 500 (pixel) </h2>
+
+    <a href="index.html">
+    <img class="arrow" src="images/unicode_arrows.png" alt="uparrow">
+    </a>
+
+<hr />
+
+        
+
+    </article>
+
+    <h3> Please feel free to visit <br> our Wild Gallery at <br> 123 Bathurst St</br> Queensville, ON <br> L0G 1R0 <br> </h3>
+    <h3>You can also reach me on &phone; 416 999 1999 <br> Email: <a href="mailto:info@wildflower.com" > info@wildflower.com </a></h3>    
+    
+</main>
+
+    <p1 style="font-family: Arial Black;"> &copy 2021 </p1>
+
+</body>
+    
+</html>
