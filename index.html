@@ -11,28 +11,20 @@
    
 
     <style>
-        @viewport 
-        {
-         width: device-width ;
-        zoom: 1.0 ;
-        }
-
-        #somethingorother 
-        {
-        width: 800px ;
-        }
 
         body 
         {
        
         background-image: url("images/433037.jpg");
-        background-size: auto;
-        background-position: right;
+        background-size: 11000px;
+        background-position: left;
         background-clip: border-box;  
-        height: 0;     
+         
+
         }
         header {
             font-weight: bolder;
+        
         }
 
         hr.header 
@@ -40,7 +32,7 @@
             border-top: 2px solid grey;
             border-bottom: 2px solid grey;
             background-color: grey;
-            border-radius: 2.5px;
+            border-radius: 1px;
             height: 2.5px;
             width: 1500px;
             
@@ -56,6 +48,7 @@
             background-position: center;
             clear: left;
             border-radius: 1px;   
+            flex-direction: column;
             
         }
         hr.nav 
@@ -80,23 +73,22 @@
             width: 50%;
             text-align: left; 
             background-image: url("images/433037.jpg");
+            background-size: 8000px;
         }
         h1
         {
-            color: rgb(56, 255, 228);
+            color: rgb(0, 7, 6);
             text-align: center;
             font-size: xx-large;
             font-family: Harrington ; 
             color:rgb(12, 12, 11);
             font-weight: 900;
-           
-        
             
         } 
          h3 
         {
             color: #080808;
-            font-family: "Arial";
+            font-family: "Times New Roman";
             text-align: center;
             font-size: small;
             float: center;
@@ -107,11 +99,13 @@
         {
             border-radius: 7px;
             border: 2.5px solid rgb(150, 150, 143);
+            float: center;
             clear: both;
             margin-left: 16%;
-           
-          
-            
+            border-image-slice: 50%;
+            height:500px;
+            width: 500px;
+  
         }
 
         img.arrow 
@@ -122,38 +116,25 @@
             border-left: 1px solid transparent;
             border-right: 1px solid transparent;
             border-radius: 20px;
-            margin-bottom: 1px;
+            margin-bottom: 45px;
         }
-        .p1
-        {
-            color: #080808;
-            font-family: "Arial black";
-            text-align: right;
-            font-size: small;
-            margin-left: 50%;
-            
-        }
-        .p2
-        {
-            font-family: cursive;
-            margin-bottom: 100px;
-              
-        }
+     
+    
         nav 
         {
             border: 2.5px solid grey;
-            width: 250px;
-            height:190px;
+            width: 200px;
+            height:360px;
             float: left;
             margin-top: 0px;
-            margin-left: 35px;
+            margin-left: 60px;
             border-radius: 5px
             
           
         }
         ul 
         {
-            text-align: left;
+            text-align: center;
             margin-right: 10%;
             list-style-type: none;
             margin: 0px;
@@ -164,9 +145,12 @@
         {
             display: block ;
             color: rgb(14, 13, 13);
-            padding: 5px 5px;  
-            align-items: right;
-            padding-block-start: 5px;
+            padding: 2px 2px;  
+            align-items: center;
+            padding-block-start: 50px;
+            font-family: monospace;
+            font-size: 15px;
+           
           
         }
         li a.active {
@@ -177,13 +161,12 @@
         }      
         li a:hover:not(.active) 
         { 
-            color: rgb(57, 168, 62);
-            background-color:rgb(209, 195, 195);
-            text-decoration-color: #ff1313;
-            width: 240px;
-    
-        }
+            color: rgb(69, 13, 223);
+            background-color: rgba(197, 197, 20, 0.911);
+            text-decoration-color: #eb2626;
+            width: 195px;
 
+        }
 
 </style>
 
@@ -199,61 +182,66 @@
      </script 
      -->
 
-    <header>
-        
-       
-<h1 style="color:rgba(30, 39, 3, 0.877); font-size: 30px ; ">
-<span style=" font-size: 70px ; text-shadow: 2.5px 0 rgb(192, 31, 31), 0 1px rgb(141, 32, 32), 1px 0 black, 0 -1px rgb(238, 95, 95); color:rgba(164, 209, 28, 0.877);"> Suleyman's Galeria</span><br>2020 Summer Collections </h1>
+<header> 
+
+<h1 style="color:rgba(30, 39, 3, 0.877); "><span style=" font-size: 70px ; text-shadow: 2.5px 0 rgb(255, 74, 74), 0 1px rgb(20, 6, 6), 1px 0 rgb(252, 131, 131), 0 -1px rgb(238, 95, 95); color:rgba(229, 252, 160, 0.877);"> Suleyman's Galeria</span><br style="border: 2px solid ;">2020 Summer Collections 
+</h1>
 <hr class="header" >
+
 </header>
 
     <main>
 <nav > 
     
-    <p style=" text-shadow: 1.2px 0; font-size: large; color:rgba(93, 124, 0, 0.877); text-align: center "  >Variety of Flowers </p>
+    <p style="text-shadow: 1.2px 0; font-size: large; color:rgba(30, 39, 3, 0.877); text-align: center">Variety of Flowers </p>
     <hr />
         <ul> 
 
-            <li><a href="#dandelion1"> Wild Dandelion </a></li>
-            <li><a href="#iris1"> Wild Iris </a></li>
-            <li><a href="#narcis1"> Wild Narcis </a></li>
-            <li><a href="#whiterose1"> Wild White Rose </a></li>
+            <li style="text-indent: -0.5em;"><a href="#dandelion1">  &#127807; Wild Dandelion </a></li>
+            <li style="text-indent: -3em;"><a href="#iris1">  &#127807; Wild Iris </a></li>
+            <li style="text-indent: -2em;" ><a href="#narcis1">  &#127807; Wild Narcis </a></li>
+            <li style="text-indent: -0.1em;"><a href="#whiterose1">  &#127807;  Wild White Rose </a></li>
             
         </ul>
 </nav>
        
     <article>
 
-        <p2 style="font-family: arial;">The images were captured in the summer of 2020, mainly located areas were in the parks where as wild life is growing and getting better in their times.  
-        I love taking photos closely, making memories and bringing those images to the real life for those whom not able to look closely like I do.<br><br><br>
-        </p2> 
+        <p style="font-family: arial;">The images were captured in the summer of 2020, mainly located areas were in the parks where as wild life is growing and getting better in their times.  
+        I love taking photos closely, making memories and bringing those images to the real life for those whom not able to look closely like I do. <br><br><br>
+        </p> 
+
 
         <section id="dandelion1">
-        <img alt="Wild Dandelion" src="images\wild-dandelion.jpg"style= "width: 500px; height:500px;">
-        <p style="margin-bottom: 50px;"> Taraxacum erythrospermum, known by the common name red-seeded dandelion, 
-        is a species of dandelion introduced to much of North America, but most commonly in the north. It is often considered as a variety of Taraxacum laevigatum.</p>
+        <img alt="Wild Dandelion" src="images\wild-dandelion.jpg">
+        
+        <p style="margin-bottom: 50px;"> Taraxacum erythrospermum, known by the common name red-seeded dandelion, is a species of dandelion introduced to much of North America, but most commonly in the north. 
+        It is often considered as a variety of Taraxacum laevigatum. <br><br> &#127800; Color: Purple <br> &#127800; Habitat: Wet areas, Rivers, Ponds. <br> &#127800; Status: Green <br>&#127800;Best Time to See: Late February
+        </p>
 
         <a href="index.html">
             <img class="arrow" src="images/unicode_arrows.png" align="right" alt="uparrow">
             </a>
 
-        <h2 style="font-size: 15px;"></h2> Captured by Suleyman Mulayim &#9830; Wild Dandelion &#9830; 500 X 500 (pixel) </h2>
+        <h2 style="font-size: 15px; margin-block-end: 100px;"></h2> Captured by Suleyman Mulayim &#9830; Wild Dandelion &#9830; 500 X 500 (pixel) </h2>
         
-         </section>  
+        </section>  
         
 <hr />
 
         <section  id="iris1">
-        <img alt="Wild Iris" src="images\wild_iris.jpg" style= "width: 500px; height: 500px;">
+        <img alt="Wild Iris" src="images\wild_iris.jpg">
+
         <p style=" margin-bottom: 50px;">A wild flower of Ontario, the blue flag blooms in late spring. 
         Range: Blue flag is our most widespread native iris. ... Habitat: The Blue flag grows in wet areas of woods and meadows and along shorelines of lakes, 
-        rivers and ponds — to the delight of cottagers and canoeists. </p>
+        rivers and ponds — to the delight of cottagers and canoeists. <br><br> &#127803; Color: Purple <br> &#127803; Habitat: Wet areas, Rivers, Ponds. <br> &#127803; Status: Green <br>&#127803; Best Time to See: Late February
+        </p>
 
         <a href="index.html">
             <img class="arrow" src="images/unicode_arrows.png" align="right" alt="uparrow">
             </a>
 
-            <h2 style="font-family: Harrington; font-size: 15px;"> Captured by Suleyman Mulayim &#9830; Wild Iris &#9830; 500 X 500 (pixel) </h2>
+            <h2 style="font-size: 15px; margin-block-end: 100px;"> Captured by Suleyman Mulayim &#9830; Wild Iris &#9830; 467 x 672 (pixel) </h2>
 
         </section>
 
@@ -261,43 +249,46 @@
 <hr />
 
         <section id="narcis1">
-        <img alt="Wild Narcis" src="images\wild_narcis.jpg" style= "width: 500px; height: 500px;">
+        <img alt="Wild Narcis" src="images\wild_narcis.jpg">
+
         <p style=" margin-bottom: 50px;"> It is also known as the 'Lent lily' or 'Easter lily' since it often blooms and fades within the Lenten period. 
-        The wild Daffodil is smaller than horticultural varieties, with paler petals and a deep yellow trumpet-like tube. 
-        The leaves are grey-green, thin, long and flattened. <br><br> &#127804; Colour: Yellow <br> &#127804; Habitat: Woodland, Grassland <br> &#127804; Status: Green - Least concern <br> &#127804; Best Time to See: March, April
-         </p>
+        The wild Daffodil is smaller than horticultural varieties, with paler petals and a deep yellow trumpet-like tube.  The leaves are grey-green, thin, long and flattened. <br><br> &#127804; 
+        Colour: Yellow <br> &#127804; Habitat: Woodland, Grassland <br> &#127804; Status: Green - Least concern <br> &#127804; Best Time to See: March, April
+        </p>
 
         <a href="index.html">
             <img class="arrow" src="images/unicode_arrows.png" align="right" alt="uparrow">
             </a>
-            <h2 style="font-family: Harrington; font-size: 15px;" > Captured by Suleyman Mulayim &#9830; Wild Narcis &#9830; 500 X 500 (pixel) </h2>
+
+            <h2 style="font-size: 15px; margin-block-end: 100px;" > Captured by Suleyman Mulayim &#9830; Wild Narcis &#9830; 500 X 500 (pixel) </h2>
+        
         </section>
-
-      
-
-   
 <hr />
-
         <section  id="whiterose1">
-        <img alt="Wild White Rose" src="images\wild_white_rose.jpg" style= "width: 500px; height: 500px;"> 
-        <p>Common wild rose is a long-lived perennial shrub that reproduces by seed as well as from underground rootstocks. 
-        Spring regrowth occurs in mid to late May, with the plants producing flowers in July. 
-        Seeds are produced in late summer and are dispersed by small mammals, song birds and grouse.</p>
+        <img alt="Wild White Rose" src="images\wild_white_rose.jpg"> 
+       
+        <p style=" margin-bottom: 30px;"> Common wild rose is a long-lived perennial shrub that reproduces by seed as well as from underground rootstocks. 
+        Spring regrowth occurs in mid to late May, with the plants producing flowers in July. Seeds are produced in late summer and are dispersed by small mammals, song birds and grouse. <br><br> &#127801; Color: Purple <br> &#127801;
+        Habitat: Wet areas, Rivers, Ponds. <br> &#127801; Status: Green <br> &#127801; Best Time to See: Late February
+        </p>
 
         <a href="index.html">
             <img class="arrow" src="images/unicode_arrows.png" align="right" alt="uparrow">
             </a>
-            <h2 style="font-family: Harrington; font-size: 15px;"  > <br>Captured by Suleyman Mulayim &#9830; Wild White Rose &#9830; 500 X 500 (pixel) </h2>
+
+            <h2 style="font-size: 15px; margin-block-end: 100px;" > <br>Captured by Suleyman Mulayim &#9830; Wild White Rose &#9830; 500 X 500 (pixel) </h2>
+       
         </section> 
 
 <hr />
 
-<p1><br><br><br><br> &copy 2021 All rights reserved Please feel free to visit our Wild Gallery at 123 Bathurst St Queensville, ON, L0G 1R0 
-    You can also reach me on &phone; 416 999 1999  Email: <a href="mailto:info@wildflower.com" > info@wildflower.com </a> </p1>
+<h3><br><br><br><br><br>For further information about our Galeria, please feel free to visit us at 123 Bathurst St Queensville, ON, L0G 1R0 
+or you can also reach us on &phone; 416 999 1999  &#9993; <a href="mailto:info@wildflower.com" style="color: rgb(24, 23, 23);" > info@wildflower.com </a> 
+</h3>
     </article>
-
-    
-    
+   
+    <p style="font-family: cursive;">&copy 2021 All rights reserved by Suleyman Mulayim
+    </p>
 </main>
 
     
