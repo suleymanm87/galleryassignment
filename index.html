@@ -1,13 +1,14 @@
-
-<!DOCTYPE html>
 <!-- Copyright Code written by Suleyman Mulayim-->
 
+<!DOCTYPE html>
 <html lang="en">
     <head>
     <meta charset="UTF-8">
-    
 
-    <title>Gallery Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title> Gallery Assignment </title>
    
 
     <style>
@@ -18,30 +19,28 @@
         background-position: right;
         background-clip: border-box;  
         
+        
         }
 
         hr {
             background-color:grey;
-            height: 2.5px;
+            height: 0.5px;
             width: 99.5%;
             border-radius: 2.5px;
             margin: 10px;
-            margin-left: 0px;
-            background-position: center;
-            clear: left;
-            border-radius: 1px;   
-            
+            margin-left: -1px;
+            background-position: left;
             
         }
         hr.nav {
             
-            background-color:grey; 
+           
             border-width: 50px;
             height: 50px;
             border-radius: 2.5px;
             clear: both;
             display: block;
-            margin: 50px; 
+            margin: 100px;  
            
         }
 
@@ -64,18 +63,12 @@
             height: 2100px;
             background-image: url("images/433037.jpg");
             background-position: 20000px;
-            box-shadow: 0.5px 0.5px 60px rgb(149, 31, 192);
-
-           
+            box-shadow: 0.5px 0.5px 60px rgb(149, 31, 192); 
         }
 
         h1.top{
-            text-shadow: 2.5px 0 rgb(21, 22, 3), 0 1px rgb(216, 207, 207), 1px 0 rgb(7, 5, 1), 0 -1px rgb(0, 0, 0);
-            font-size: 40px;
+            text-shadow: 2.5px 0 rgb(211, 219, 211), 0 1px rgb(255, 255, 255), 1px 0 rgb(239, 238, 240), 0 -1px rgb(248, 248, 248);
             text-align: center;
-            font-variant-caps:titling-caps;
-            color: rgb(236, 165, 12);  
-            font-weight: bolder;
        }
 
 
@@ -94,37 +87,44 @@
             text-align: center;
             font-size: 15px;
             position: sticky;
+            font-variant: small-caps;
         
         }
 
         h4 {
             font-family: cursive;
             position: sticky;
+            font-variant: small-caps;
 
         }
 
         img {
-            border-radius: 7px;
-            border: 2.5px solid rgb(150, 150, 143);
+           
+            border: 2.5px solid rgb(236, 236, 111);
             clear: right;
             height: 350px;
             width: 350px;  
             float: left;
             margin-right: 10px;
             position: sticky;
+            border-radius: 2.5px;
+            padding: 1px;
+        
+            
         }
 
         img.arrow {
 
-            width: 25px;
-            height: 25px;
+            width: 20px;
+            height: 20px;
             border-radius: 20px;
             margin-bottom: 5px;
             border-image: 100px;
-            margin-right: 900px;
+            
             margin-left: 800px;
             margin-top: 50px;
-            position: sticky;
+            
+           
         }
         
         nav {
@@ -135,7 +135,8 @@
             margin-top: 1.5px;
             margin-left: 20px;
             border-radius: 2.5px;
-            box-shadow: 0.5px 0.5px 60px rgb(147, 48, 184);
+            box-shadow: 0.5px 0.5px 60px rgb(23, 1, 31);
+            
         }
 
         ul {
@@ -144,8 +145,12 @@
             list-style-type: none;
             margin: 0px;
             padding: 0px;
-            width: 200px;   
+           
             
+        }
+        .navhr{
+            width: 250px;
+            background-color:rgb(241, 250, 119);
         }
 
         li a {
@@ -153,44 +158,56 @@
             color: rgb(14, 13, 13);
             padding: 10px 10px;  
             font-family: Arial;
+            display: block;
+            
         }
 
         li a.active {
             background-color: #5ee775;
             color: rgb(192, 45, 45);
             width: 80%;
+            
         }      
 
         li a:hover:not(.active) { 
             color: rgb(53, 4, 19);
             background-color:rgb(241, 250, 119);
             text-decoration-color: #0a0202;
-          
-            width: 115%;
+            width: 92.5%;
             position: sticky;
         }
+
         p.navheader  {
-            text-shadow: 1.5px 0; 
-            font-size: 25px; color:rgb(8, 8, 8); 
+            text-shadow: 1.5px 0 ; 
+            font-size: 25px; 
             text-align: center; 
+            
+            
+            
+   
         }
 
         p.bottom  {
             text-align: center; 
             font-size: 25px;
-            font-family: Harrington ; 
+            font-variant: small-caps;
+            
+            
         }
 
         p.firstparagraph {
         font-family: Arial;
         font-size: small;
-        text-indent: 50px;
-        
+        text-indent: 25px;
+      
+              
         }
 
         p.photoparagraph {
         margin-bottom: 50px;
         text-align: left;
+        text-indent: 25px;
+        
         }
         
 
@@ -201,20 +218,22 @@
 <header>
     <hr class="header">
     
-    <h1 class="top"> Suleyman's Galeria <br> 2020 Summer Collections </h1>
-    
+    <h1 class="top"> 
+    <span style=" font-size: small; font-family: 'Papyrus'; font-size:larger; font-weight: bolder; text-shadow: 1.5px 1.5px; color: rgb(2, 27, 5);  ">Suleyman's Galeria </span> 
+    <span style="font-size: small; font-family: 'Papyrus'; font-size:smaller; font-weight: bolder;"> 2020 Summer Collections </span>
 <hr class="header">
 
 </header>
 
     <main>
 
+       
 <nav > 
     
     <p class="navheader"> Variety of Flowers </p>
-    <hr />
+  
         <ul> 
-
+            <hr class="navhr"/>
             <li><a href="#dandelion1">  &#127807; Wild Dandelion </a></li>
             <li><a href="#iris1"> &#127807; Wild Iris </a></li>
             <li><a href="#narcis1">   &#127807; Wild Narcis </a></li>
@@ -222,13 +241,14 @@
             <li><a href="#contact">  &#127807; Contact us </a></li>
             
         </ul>
+        
 </nav>
        
     <article>
 
         <p class="firstparagraph">The images were captured in the summer of 2020, mainly located areas were in the parks where as wild life is growing and getting better in their times.  
         I love taking photos closely, making memories and bringing those images to the real life for those whom not able to look closely like I do.<br><br><br>
-        </p> 
+    </p> 
 
 <section id="dandelion1">
 
@@ -236,14 +256,14 @@
 
         <p class= "photoparagraph"> &#9997;&#127996;Taraxacum erythrospermum (Wild Dandelion), known by the common name red-seeded dandelion, 
         is a species of dandelion introduced to much of North America, but most commonly in the north. It is often considered as a variety of Taraxacum laevigatum.
-        <br><br><br><br><br><br><br>&#127804; Colour: Yellow <br> &#127804; Habitat: Woodland, Grassland <br> &#127804; Status: Green - Least concern <br> &#127804; Best Time to See: March, April
+        <br><br><br><br><br> &#127804; Colour: White <br> &#127804; Habitat: Woodland, Grassland <br> &#127804; Status: Green - Least concern <br> &#127804; Best Time to See: March, April
         </p>
 
         <a href="index.html">
             <img class="arrow" src="images/unicode_arrows.png" align="right" alt="uparrow">
             </a>
 
-    <h2>Captured by Suleyman Mulayim &#9830; Wild Dandelion &#9830; 350 X 350 (pixel) </h2>
+    <h2><br><br><br>Captured by Suleyman Mulayim &#9830; Wild Dandelion &#9830; 350 X 350 (pixel) </h2>
         
 </section>  
         
@@ -253,16 +273,15 @@
 
     <img alt="Wild Iris" src="images\wild_iris.jpg">
 
-        <p class= "photoparagraph">&#9997;&#127996; A wild flower of Ontario, the blue flag blooms in late spring. 
-        Range: Blue flag is our most widespread native iris.  
-        <br><br><br><br><br><br><br><br><br> &#127804; Colour: Yellow <br> &#127804; Habitat: Woodland, Grassland <br> &#127804; Status: Green - Least concern <br> &#127804; Best Time to See: March, April
+        <p class= "photoparagraph">&#9997;&#127996;The iris commonly means wisdom, hope, trust, and valor. It can be found in a variety of temperate zones around the world, as such, its meanings have been adapted to fit various cultures. ... The iris inspired the fleur-de-lis, a decorative symbol used by French royalty. It originated in the Middle Ages.  
+        <br><br><br><br><br> &#127804; Colour: Yellow <br> &#127804; Habitat: Woodland, Grassland <br> &#127804; Status: Green - Least concern <br> &#127804; Best Time to See: March, April
         </p>
 
         <a href="index.html">
             <img class="arrow" src="images/unicode_arrows.png" align="right" alt="uparrow">
             </a>
 
-    <h2><br>Captured by Suleyman Mulayim &#9830; Wild Iris &#9830; 350 X 350 (pixel) </h2>
+    <h2><br><br>Captured by Suleyman Mulayim &#9830; Wild Iris &#9830; 350 X 350 (pixel) </h2>
 
 </section>
 
@@ -287,8 +306,6 @@
         
 </section>
 
-      
-
    
 <hr />
 
@@ -312,7 +329,9 @@
 
 <hr />
 
-    <h3> <br><br> &#127968; Please feel free to visit us at 123 Bathurst St Queensville, ON, L0G 1R0 
+<section id="contact">
+
+    <h3> <br><br><br> &#127968; Please feel free to visit us at 123 Bathurst St Queensville, ON, L0G 1R0 
     <br>You can also reach us on &phone; 416 999 1999 or &#9993; <a href="mailto:info@wildflower.com" > info@wildflower.com </a></h3>
 
 
